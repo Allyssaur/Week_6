@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: grid;
+    font-family: "Lucida Console";
+    color: whitesmoke;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(auto);
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+    background-color: LightSlateGray;
+}
+.header {
+    text-align: center;
+    padding: 5px;
+   
+}
+img {
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 50px 5px rgb(27, 27, 27);
+
+}
+.deck-img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    user-select: none;
+
+}
+
+.text {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
